@@ -1,0 +1,47 @@
+
+.header {
+    background-color: #3498db;
+    text-align: center;
+    padding: 20px;
+    font-family: "Roboto", sans-serif; /* Aplicando a fonte */
+}
+
+.header img {
+    max-width: 200px;
+}
+
+/* Estilos para a tabela de produtos */
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 220px); /* Altura mínima do conteúdo */
+    background-color: white; /* Fundo branco */
+    font-family: "Roboto", sans-serif; /* Aplicando a fonte */
+}
+
+.product-table {
+    border-collapse: collapse;
+    width: 30%; /* Largura reduzida */
+}
+
+.product-table th, .product-table td {
+    border: 1px solid #ddd;
+    padding: 6px; /* Padding reduzido para maior leveza visual */
+    text-align: left;
+}
+
+.product-table th {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para o rodapé */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3498db; /* Azul */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family: "Roboto", sans-serif; /* Aplicando a fonte */
+}
